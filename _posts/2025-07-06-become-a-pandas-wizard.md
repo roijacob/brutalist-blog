@@ -3,6 +3,7 @@ layout: post
 title: Become a Pandas Wizard Overnight
 subtitle: You've been doing Pandas wrong all this time.
 tags: [data]
+latest: 2025-07-10
 ---
 
 If you are a data analyst, chances are that there would be portions of your work that you would do in pandas. And once you've been in it for a while, it sort of becomes second nature writing in pandas, as it's pretty easy to build the muscle memory once you have been exposed enough to it.
@@ -76,7 +77,7 @@ monthly_customer_behavior_df = (
 monthly_customer_behavior_df
 ```
 
-Notice that all of the transformation are all contained in a single declaration where the chunk of code represents various transformations that produces a single output. Here is the visual representation of what I am trying to convey:
+Notice that all of the transformations are all contained in a single declaration where the chunk of code represents various transformations that produces a single output. Here is the visual representation of what I am trying to convey:
 
 <div align="center">
   <img src="/assets/images/from_posts/2025-07-06-become-a-pandas-wizard.svg" alt="">
@@ -121,7 +122,7 @@ monthly_customer_behavior_df = (
 monthly_customer_behavior_df
 ```
 
-Now, the code is pretty much self-documenting. The use of comments can be redirected towards code organization or providing the business decision behind a certain data transformation. Once you learn this and start applying it, you would gravitate on it, perhaps you could ask adjacent questions like:
+Now, the code is so well-organized that it is effectively self-documenting. The use of comments can be redirected towards code organization or providing the business decision behind a certain data transformation. Once you learn this and start applying it, you would gravitate on it, perhaps you could ask adjacent questions like:
 
 - Can I method chain on custom functions? Yes, use `pandas.DataFrame.pipe`.
 - Can I method chain on column creations? Yes, use `pandas.DataFrame.assign`.
@@ -133,8 +134,7 @@ Now, the code is pretty much self-documenting. The use of comments can be redire
     <hr>
 </div>
 
-If you are using pandas on a daily you may already know this, but this writing is best absorbed for practitioners who only use pandas occasionally. I didn't read Matt Harrison's books, but this summarizes his main idea, as stated himself at the end of this video. If you want some related tips to complement this, you can look here; these are the best that I found prior to this writing:
-Making Pandas Code Neat and Maintainable
+If you are using pandas on a daily you may already know this, but this writing is best absorbed for practitioners who only use pandas occasionally. I didn't read Matt Harrison's books, but this summarizes his main idea, as stated himself at the end of this [video](https://www.youtube.com/watch?v=zgbUk90aQ6A). If you want some related tips to complement this article, you can look here; these are the best that I found prior to this writing:
 
 - [Making Pandas Code Neat and Maintainable](https://medium.com/henkel-data-and-analytics/making-pandas-code-neat-and-maintainable-e5920f7d2d36)
 - [The ultimate reference for clean Pandas code](https://towardsdatascience.com/the-ultimate-reference-for-clean-pandas-code-413df676e63c)
