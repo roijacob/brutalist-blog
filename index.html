@@ -3,17 +3,31 @@ layout: default
 ---
 
 <div class="archive">
-  {% for post in site.posts %} {% assign currDate = post.date | date: "%Y" %} {%
-  if currDate != date %}
-  <h1 class="archive-year">{{ currDate }}</h1>
-  {% assign date = currDate %} {% endif %}
-  <div class="archive-item">
-    <span class="post-date archive-date fs-4"
-      >{{ post.date | date: "%B %d, %Y" }}</span
-    >
-    <a href="{{ post.url | relative_url }}" class="archive-title fs-4"
-      >{{ post.title }}</a
-    >
-  </div>
+  <!-- Loop through all posts in the site -->
+  {% for post in site.posts %}
+    
+    <!-- Get the year from the current post's date -->
+    {% assign currDate = post.date | date: "%Y" %}
+    
+    <!-- Check if this year is different from the previous post's year -->
+    {% if currDate != date %}
+      <!-- Display the year as a heading -->
+      <h1 class="archive-year">{{ currDate }}</h1>
+      <!-- Remember this year for the next iteration -->
+      {% assign date = currDate %}
+    {% endif %}
+    
+    <!-- Display each individual post -->
+    <div class="archive-item">
+      <!-- Show the full date (Month Day, Year) -->
+      <span class="post-date archive-date fs-4">{{ post.date | date: "%B %d, %Y" }}</span>
+      
+      <!-- Show the post title as a clickable link -->
+      <a href="{{ post.url | relative_url }}" class="archive-title fs-4">{{ post.title }}</a>
+
+      <!-- Show the post subtitle -->
+      <div class="archive-subtitle">{{ post.subtitle }}</div>
+    </div>
+
   {% endfor %}
 </div>
