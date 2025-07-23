@@ -5,6 +5,9 @@ table {
 
 blockquote {
   @extend .blockquote;
+  padding: 1rem;
+  text-align: center;
+  border-block: 2px solid black;
 }
 
 img {
