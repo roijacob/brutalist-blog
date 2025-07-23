@@ -30,7 +30,7 @@ To cut through the BS and the nonsensical opinion that I'm about to write, if yo
 
 The two videos present this common denominator:
 
-> <mark>Summarize in Your Own Words</mark>
+> Summarize in Your Own Words
 
 That's it. I know, it's that simple. I want you to reflect on this (or while watching Jeffrey's video).
 

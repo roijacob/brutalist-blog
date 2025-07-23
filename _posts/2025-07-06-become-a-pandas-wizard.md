@@ -18,7 +18,7 @@ Going back, this is more of a rant rather than a tutorial; I have nothing to tea
 
 If you want to become a pandas wizard overnight, I'll give you this tip:
 
-> <mark>Use Method Chains</mark>
+> Use Method Chains
 
 No more, no less. If there is only one piece of advice that I can give to beginners in pandas, it would be this. For example:
 
