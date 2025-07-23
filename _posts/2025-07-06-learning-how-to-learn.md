@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Learning How to Learn
-subtitle: How to Become a Learning Machine.
+subtitle: How to Become a Learning Machine
 tags: [growth]
 latest: 2025-07-23
 ---

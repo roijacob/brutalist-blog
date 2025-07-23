@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Become a Pandas Wizard Overnight
-subtitle: You’ve Been Doing Pandas Wrong All This Time.
+subtitle: You’ve Been Doing Pandas Wrong All This Time
 tags: [data]
 latest: 2025-07-23
 ---
@@ -128,7 +128,7 @@ Now, the code is so well-organized that it is effectively self-documenting. The 
 - Can I method chain on column creations? Yes, use `pandas.DataFrame.assign`.
 - Can I method chain on filtering? Yes, use `pandas.DataFrame.query`.
 
-> Everything in Pandas Can Be Chained.
+> Everything in Pandas Can Be Chained
 
 <div class="conclusion-divider">
     <hr>
