@@ -3,6 +3,7 @@ layout: post
 title: Learning How to Learn
 subtitle: How to Become a Learning Machine.
 tags: [growth]
+latest: 2025-07-23
 ---
 
 If you want to become a knowledge worker, this is by far the biggest hurdle you need to overcome to propel yourself into learning anything you desire.
@@ -41,7 +42,7 @@ I think there is an inclination for all of us to capture all of the information 
 
 Do not be the person who thinks that it is essential to capture every word that was said, because words are just symbols.
 
-You can use a multitude of symbols to denote the same information; words are just the method we use to communicate.
+<mark>You can use a multitude of symbols to denote the same information; words are just the method we use to communicate.</mark>
 
 ## Your Boss Wants a Concise Information
 
@@ -49,7 +50,7 @@ This is the prime example that information can be reduced to its simplest form. 
 
 This is especially true if you work in a technical field and your boss is not as technical. Your boss doesn't want to know the exact implementation specifics that you did; they just want to understand the information in a way that is not overly complicated to digest, allowing them to make business decisions.
 
-Approach learning the same way: if you can rephrase it in a way that is much easier for you to understand, then do it. You are the boss; make the information easier to understand for yourself.
+Approach learning the same way: <mark>if you can rephrase it in a way that is much easier for you to understand, then do it.</mark> You are the boss; make the information easier to understand for yourself.
 
 <div class="conclusion-divider">
     <hr>

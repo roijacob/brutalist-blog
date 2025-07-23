@@ -3,6 +3,7 @@ layout: post
 title: It Takes Time to be Proficient in One (Programming) Language
 subtitle: Learn Programming in the Timeslot That Takes up Your Day
 tags: [growth]
+latest: 2025-07-23
 ---
 
 The first time I touched on Python was at the start of 2022. After two years, I tried Swift, thinking that I had learned enough about Python.
@@ -19,16 +20,16 @@ I would never have had this opportunity on my own if I were just doing some proj
 
 My recent writing of "[Become a Pandas Wizard Overnight](https://roijacob.com/2025/07/06/become-a-pandas-wizard/ )" is one example of that. Learning pandas, you would never encounter the iterative analysis that I am experiencing at work. The pain point of coming back to my spaghetti code adds friction to my productivity that led me to adopt a coding style that is easy to read and easy to understand.
 
-It is also at work that you can discover the edge cases and hidden quirks of a programming language. For me, I have the opportunity on doing it by using [matplotlib](https://matplotlib.org/). To give context, matplotlib has an object-oriented structure. The data you visualize in matplotlib must be arranged as ideally as possible, all that the library does is just visualize the data. Matplotlib does not have data preparation submodules, so you need to prepare the data yourself. For this, I use [numpy](https://numpy.org/) or some built-in functions like `zip()`, `enumerate()`, which help me become proficient in Python.
+<mark>It is also at work that you can discover the edge cases and hidden quirks of a programming language.</mark> For me, I have the opportunity on doing it by using [matplotlib](https://matplotlib.org/). To give context, matplotlib has an object-oriented structure. The data you visualize in matplotlib must be arranged as ideally as possible, all that the library does is just visualize the data. Matplotlib does not have data preparation submodules, so you need to prepare the data yourself. For this, I use [numpy](https://numpy.org/) or some built-in functions like `zip()`, `enumerate()`, which help me become proficient in Python.
 
 ## Don't Rush
 
-It is very possible to learn a second language that is not related to your work (like the one that I used to do), but you must NOT do it at a level where you don't yet have mastery of the language you use at work. Because the cognitive resources get split up when learning those languages, it ends up preventing you from becoming proficient in both; it takes time. A better approach is to start learning a second language after it becomes a breeze working in the first programming language.
+It is very possible to learn a second language that is not related to your work (like the one that I used to do), but you must NOT do it at a level where you don't yet have mastery of the language you use at work. Because the cognitive resources get split up when learning those languages, it ends up preventing you from becoming proficient in both; it takes time. A better approach is to <mark>start learning a second language after it becomes a breeze working in the first programming language.</mark>
 
 <div class="conclusion-divider">
     <hr>
 </div>
 
-The key takeaway from this writing is that if you want to learn a programming language (or even a software such as Microsoft Excel), you must be at a job learning it.
+The key takeaway from this writing is that <mark>if you want to learn a programming language (or even a software such as Microsoft Excel), you must be at a job learning it.</mark>
 
 Reflecting on my Swift learning journey, I find it quite challenging. I might even give up on learning it because I need to be at work practicing those skills. While I can acquire the foundational knowledge, it might not advance me to the next level unless I enter the workforce and use that skill as a value that I can provide.

@@ -3,14 +3,14 @@ layout: post
 title: Become a Pandas Wizard Overnight
 subtitle: You've been doing Pandas wrong all this time.
 tags: [data]
-latest: 2025-07-10
+latest: 2025-07-23
 ---
 
 If you are a data analyst, chances are that there would be portions of your work that you would do in pandas. And once you've been in it for a while, it sort of becomes second nature writing in pandas, as it's pretty easy to build the muscle memory once you have been exposed enough to it.
 
 Pandas is very easy to use; almost all of the functionalities there can be written with one-liners. And with that easiness, it's also easy to write in such an unconventional manner.
 
-There would come a time where **your messy pandas code would haunt you**, as it definitely happened to me. It specifically goes like this: I was creating an EDA to better understand our customers who are using buy now pay later (BNPL). As the EDA is more like an iterative process, each time I stepped away from it for a while and came back, it felt like there was a lot of friction in understanding my previous work. There also came a time when I handed it to our data scientist, and it definitely made it hard for her to read my code.
+There would come a time where <mark>your messy pandas code would haunt you</mark>, as it definitely happened to me. It specifically goes like this: I was creating an EDA to better understand our customers who are using buy now pay later (BNPL). As the EDA is more like an iterative process, each time I stepped away from it for a while and came back, it felt like there was a lot of friction in understanding my previous work. There also came a time when I handed it to our data scientist, and it definitely made it hard for her to read my code.
 
 Additionally, I think this is the worst situation you would encounter: if suddenly you are in a meeting presenting your progress and then a question is asked, perhaps questioning your methodologies or asking for the specific value(s) that you got in your analysis, the answer is definitely in the code, but your code is so messy that it would take you a while to locate the answer.
 
@@ -77,7 +77,7 @@ monthly_customer_behavior_df = (
 monthly_customer_behavior_df
 ```
 
-Notice that all of the transformations are all contained in a single declaration where the chunk of code represents various transformations that produces a single output. Here is the visual representation of what I am trying to convey:
+Notice that all of the <mark>transformations are all contained in a single declaration</mark> where the chunk of code represents various transformations that produces a single output. Here is the visual representation of what I am trying to convey:
 
 <div align="center">
   <img src="/assets/images/from_posts/2025-07-06-become-a-pandas-wizard.svg" alt="">
@@ -85,7 +85,7 @@ Notice that all of the transformations are all contained in a single declaration
 
 While the difference might seem negligible in this example, its benefit becomes apparent when dealing with a large number of data transformations. 
 
-The formatting of method chains is a matter of personal preference. Personally, I indent the method and create an additional indent for the parameters and their arguments:
+<mark>The formatting of method chains is a matter of personal preference. Personally, I <b>indent the method and create an additional indent</b> for the parameters and their arguments:</mark>
 
 ```python
 monthly_customer_behavior_df = (

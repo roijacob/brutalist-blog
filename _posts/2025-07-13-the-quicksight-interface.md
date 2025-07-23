@@ -3,6 +3,7 @@ layout: post
 title: Navigating the Quicksight Interface
 subtitle: Get Up to Speed with QuickSight
 tags: [quicksight]
+latest: 2025-07-23
 ---
 
 Here is the sample interface of Amazon Quicksight. The ones that I boxed could be referred to as **toolbars**, like those present in software such as the Microsoft Office Suite. 
@@ -42,4 +43,4 @@ If the toggles in the red box are unpressed, it would look like this:
 
 ![](/assets/images/from_posts/img-2-2025-07-13-the-quicksight-interface.png)
 
-It would be like a clean slate, where you really can't do anything unless you press something in the toolbar. The toolbar is what you would use **90%** of the time to create and modify visual charts in QuickSight.
+It would be like a clean slate, where you really can't do anything unless you press something in the toolbar. <mark>The toolbar is what you would use <b>90%</b> of the time to create and modify visual charts in QuickSight.</mark>
