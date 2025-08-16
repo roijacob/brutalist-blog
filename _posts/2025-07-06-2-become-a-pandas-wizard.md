@@ -3,7 +3,7 @@ layout: post
 title: Become a Pandas Wizard Overnight
 subtitle: You’ve Been Doing Pandas Wrong All This Time
 tags: [data]
-latest: 2025-07-23
+latest: 2025-08-16
 ---
 
 If you are a data analyst, chances are that there would be portions of your work that you would do in pandas. And once you've been in it for a while, it sort of becomes second nature writing in pandas, as it's pretty easy to build the muscle memory once you have been exposed enough to it.
@@ -122,7 +122,19 @@ monthly_customer_behavior_df = (
 monthly_customer_behavior_df
 ```
 
-Now, the code is so well-organized that it is effectively self-documenting. The use of comments can be redirected towards code organization or providing the business decision behind a certain data transformation. Once you learn this and start applying it, you would gravitate on it, perhaps you could ask adjacent questions like:
+Now, the code is so well-organized that it is effectively self-documenting. While this might be confusing just by illustrating a simple snippet, here is a real-world example of what I am trying to convey, where the common practice is on the left, and the better practice, where method chaining is utilized, is on the right.
+
+<div align="center">
+  <img src="/assets/images/from_posts/img-1-2025-08-16-become-a-pandas-wizard.png" alt="">
+</div>
+
+Separating these data transformations is a matter of personal preference too. If you find that the method chain becomes too long, feel free to break it up, like this one:
+
+<div align="center">
+  <img src="/assets/images/from_posts/img-2-2025-08-16-become-a-pandas-wizard.png" alt="">
+</div>
+
+Once you learn this and start applying it, you would gravitate on it, perhaps you could ask adjacent questions like:
 
 - Can I method chain on custom functions? Yes, use `pandas.DataFrame.pipe`.
 - Can I method chain on column creations? Yes, use `pandas.DataFrame.assign`.
